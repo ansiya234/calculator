@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./calculator.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>Simple Calculator</h1>
+
+<body style="background-color: rgb(8, 141, 161);">
+    <h1 style="color: rgb(6, 72, 91); text-decoration: underline;">Simple Calculator</h1>
     <div class="container">
         <input type="text " class="input" id="output">
         <div class="button">
-          
-                <div class="row1">
-                    
-                    <button class="toprow" id="AC"onclick="clearAll()">AC</button>
-                   <button class="toprow" id="DEL"onclick="remove()">DEL</button>
-                    <button class="toprow" id="modulus"onclick="displayContent('%')">%</button>
-                    <button class="toprow" id="divide"onclick="displayContent('/')">/</button>
-                </div>
-                <div class="row2">
-                    <button id="seven" onclick="displayContent('7')">7</button>
-                    <button id="eight" onclick="displayContent('8')">8</button>
-                    <button id="nine" onclick="displayContent('9')">9</button>
-                    <button  id="multiplication" class="toprow" onclick="displayContent('*')">*</button>
-                </div>
-                 <div class="row3">
-                    <button id="four" onclick="displayContent('4')">4</button>
-                    <button id="five" onclick="displayContent('5')">5</button>
-                    <button id="Six" onclick="displayContent('6')">6</button>
-                    <button id="subtract"  onclick="displayContent('-')" class="toprow">-</button>
-                 </div>
-                 <div class="row4">               
-                    <button id="One"  onclick="displayContent('1')">1</button>
-                    <button id="TWo"  onclick="displayContent('2')">2</button>
-                    <button id="Three"  onclick="displayContent('3')">3</button>
-                    <button id="addition"  onclick="displayContent('+')" class="toprow">+</button>
-                </div>
-                <div class="row5">                    
-                    <button id="0"  onclick="displayContent('0')">0</button>
-                    <button id="00"  onclick="displayContent('00')">00</button>
-                    <button id="."  onclick="displayContent('.')">.</button>
-                    <button id="equal"  onclick="showoutput()" class="toprow" >=</button>
-                </div>
-           
-      
+
+            <div class="row1">
+                <button class="toprow" id="AC" onclick="clearAll()">AC</button>
+                <button class="toprow" id="DEL" onclick="remove()">DEL</button>
+                <button class="toprow" id="modulus" onclick="displayContent('%')">%</button>
+                <button class="toprow" id="divide" onclick="displayContent('/')">/</button>
+            </div>
+            <div class="row2">
+                <button id="seven" onclick="displayContent('7')">7</button>
+                <button id="eight" onclick="displayContent('8')">8</button>
+                <button id="nine" onclick="displayContent('9')">9</button>
+                <button id="multiplication" class="toprow" onclick="displayContent('*')">*</button>
+            </div>
+            <div class="row3">
+                <button id="four" onclick="displayContent('4')">4</button>
+                <button id="five" onclick="displayContent('5')">5</button>
+                <button id="Six" onclick="displayContent('6')">6</button>
+                <button id="subtract" onclick="displayContent('-')" class="toprow">-</button>
+            </div>
+            <div class="row4">
+                <button id="One" onclick="displayContent('1')">1</button>
+                <button id="TWo" onclick="displayContent('2')">2</button>
+                <button id="Three" onclick="displayContent('3')">3</button>
+                <button id="addition" onclick="displayContent('+')" class="toprow">+</button>
+            </div>
+            <div class="row5">
+                <button id="0" onclick="displayContent('0')">0</button>
+                <button id="00" onclick="displayContent('00')">00</button>
+                <button id="." onclick="displayContent('.')">.</button>
+                <button id="equal" onclick="showoutput()" class="toprow">=</button>
+            </div>
+
+
         </div>
     </div>
 </body>
 <script src="./script.js"></script>
+
 </html>
